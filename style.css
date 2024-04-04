@@ -51,4 +51,9 @@
   font-size: 26px;
 }
 
+.error {
+  background-color: #ebcccc;
+  color: red;
+}
+
 /*# sourceMappingURL=style.css.map */

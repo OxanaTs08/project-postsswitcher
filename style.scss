@@ -19,6 +19,7 @@ $btnSize: 50px;
 
     &:active {
         transform: translateY(1px);
+        
     }
     &:hover {
         background-color: #a8afe1;
@@ -28,8 +29,9 @@ $btnSize: 50px;
         background-color: #ddd;
         cursor: not-allowed;
     }
-
-
+    // &:disabled:active {
+    //     transform: translateY(0);
+    // }
 }
 .app {
     padding: 30px;
@@ -56,4 +58,10 @@ $btnSize: 50px;
     line-height: 100%;
     font-size: 26px;
   }
+}
+
+.error {
+    background-color: #ebcccc;
+    color: red;
+    // border-radius: ;
 }
