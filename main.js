@@ -1,5 +1,6 @@
 const prevBtn = document.querySelector('#prev')
 const nextBtn = document.querySelector('#next')
+
 const titleBox = document.querySelector('.post h1')
 const textBox = document.querySelector('.post p')
 const postBox = document.querySelector('.post')
@@ -60,6 +61,7 @@ prevBtn.addEventListener('click', async () => {
     }
     renderPost(currentPostId)
 })
+
 nextBtn.addEventListener('click', async () => {
     currentPostId++
     if (currentPostId > 1) prevBtn.disabled = false
@@ -67,4 +69,3 @@ nextBtn.addEventListener('click', async () => {
 })
 
 renderPost(1)
-

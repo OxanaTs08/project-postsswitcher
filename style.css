@@ -54,6 +54,27 @@
 .error {
   background-color: #ebcccc;
   color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360);
+  }
+}
+.loader {
+  text-align: center;
+  padding: 20px;
+}
+
+.loader-icon {
+  animation: spin 1.4s infinite linear;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
